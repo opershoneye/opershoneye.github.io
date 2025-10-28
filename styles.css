@@ -9,6 +9,11 @@ text-align: center;
 .projects { 
     display:flex; flex-wrap:wrap;
  } /* condensed to save space */
+ .projects h2 {
+    /* display the h2 on its own line, not with the section blobs */
+	width: 100%;
+}
+
 .project {
     width: 30%;
     margin: 10px;
@@ -16,11 +21,20 @@ text-align: center;
     background: rgb(0, 0, 0); /* pick a color */
     border-radius: 25%;
 }
+.project h3 {
+    /* pull the h3 text away from the left blob wall */
+    margin-left: 50px;
+}
 .project img{
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 2px solid rgb(62, 20, 213); /* choose a color */
+    border: 2px solid rgb(25, 25, 26); /* choose a color */
     display: block;
     margin: auto;
+}
+.project p {
+    /* center the p text in the blob */
+    text-align: center;
+    margin: 15px;
 }
