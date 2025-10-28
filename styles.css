@@ -16,3 +16,11 @@ text-align: center;
     background: rgb(0, 0, 0); /* pick a color */
     border-radius: 25%;
 }
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(62, 20, 213); /* choose a color */
+    display: block;
+    margin: auto;
+}
